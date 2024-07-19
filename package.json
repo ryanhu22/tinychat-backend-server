@@ -1,0 +1,29 @@
+{
+  "name": "with-tailwindcss-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@headlessui/react": "^2.1.2",
+    "@heroicons/react": "^2.1.5",
+    "axios": "^1.7.2",
+    "express": "^4.19.2",
+    "multer": "^1.4.5-lts.1",
+    "next": "14.2.5",
+    "next-connect": "^1.0.0",
+    "openai": "^4.52.7",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.2.5",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
+  }
+}
